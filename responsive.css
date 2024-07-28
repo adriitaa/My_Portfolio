@@ -1,0 +1,41 @@
+@media only screen and (max-width: 480px){
+    .container {
+        width: 95%;
+    }
+    
+    .sitenav li{
+        margin-left: 0;
+    }
+
+    .half-div {
+        width: 100%;
+    }
+    .flex-div{
+        flex-direction: column;
+    }
+
+    .CV{
+        float: none;
+        margin-top: 10px;
+    }
+    .sitenav {
+        text-align: left; 
+    }
+    
+    .intro-content h1 {
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+    
+    .intro-content h5{
+        font-size: 19px;
+    }
+    .intro-content h5 img {
+        width: 16px;
+    }
+
+    
+}
+
+  

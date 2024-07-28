@@ -1,0 +1,300 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif; 
+    background-color: rgb(33, 28, 28);
+}
+
+/* common css */
+
+.padding-both {
+    padding: 30px 0;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half-div {
+    width: 50%;
+}
+
+
+
+
+/* navbar */
+
+.sitename>h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FD6F00;
+}
+
+.sitenav {
+    padding: 7px 0px;
+    gap: 24px;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+}
+
+.sitenav li {
+    list-style: none;
+    margin-left: 21px;
+    gap: 21px;
+    padding-top: 10px;
+}
+
+.sitenav li a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.CV {
+    float: right;
+    margin-right: 10px; 
+    justify-content: space-between;
+}
+
+
+/* Banner section css*/
+
+
+.intro-content h1{
+    font-size: 40px;
+    line-height: 47.4px;
+    font-weight: 800;
+}
+.highlight {
+    color: #FD6F00;
+}
+
+.intro-content p{
+    font-size: 18px;
+    line-height: 21.34px;
+    font-weight: 400;
+    color: grey;
+}
+.intro-content h5 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.44px;
+}   
+
+.intro-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.button-box {
+	margin: 35px auto;
+	position: relative;
+	border-radius: 30px;
+	background: gray
+}
+
+.toggle-btn {
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 30px;
+	padding: 15px 10px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+}
+
+#btn {
+	position: absolute;
+	width: 150px;
+	height: 100%;
+	background: #FD6F00;
+	border-radius: 30px;
+}
+ 
+
+.profile-image img{
+    width: 50%;
+    margin: 0 auto;
+}
+.contact {
+    display: flex;
+    column-gap: 40px;
+}
+
+
+/*About-me*/
+
+.about-container {
+    width: 1150px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.myself {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.description {
+    width: 50%;
+}
+.description p {
+    color: gray;
+}
+
+.exp-rating {
+    display: flex; 
+    align-items:end;
+    flex-direction: column;
+}
+       
+.rating i {
+    font-size: 24px;
+    color: orange;
+    margin-right: 5px;
+}
+.exp {
+    margin-right: 5px;
+}
+
+
+/*MY EXPERIENCE*/
+
+.My-experience {
+    background: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.half-side {
+    width: 50%;
+}
+
+.paragraph h6 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #b4abab
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    }
+    
+.experience-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #b8b4b4;
+}
+    
+.date {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+    
+.company {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+    
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*CONTACT-INFO*/
+.contact-form {
+    background-color: rgba(253, 111, 0, 0.1);
+    padding: 100px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #FD6F00; 
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*Footer*/
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .copyright {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
